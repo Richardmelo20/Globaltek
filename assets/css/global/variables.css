@@ -1,0 +1,17 @@
+:root {
+  /* colors */
+  --color-primary: #fff;
+  --color-secondary: #000;
+  --color-tertiary: #1DA6FF;
+
+  /* fonts */
+  --font-bold: 'font-bold';
+  --font-regular: 'font-regular';
+
+  /* sizes */
+  --size-small: clamp(0.5rem, 1vw, 1rem);
+  --size-text: clamp(1rem, 1vw, 1rem);
+  --size-highlights: clamp(1.2rem, 1vw, 1.5rem);
+  --size-sub-title: clamp(1.5rem, 1vw, 2rem);
+  --size-title: clamp(2rem, 1vw, 4rem);
+}

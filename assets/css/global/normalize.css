@@ -1,0 +1,17 @@
+* {
+  line-height: auto;
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-weight: inherit;
+}
+body, html {
+  background-color: black;
+}
+::selection {
+  color: white;
+  background-color: red;
+}
