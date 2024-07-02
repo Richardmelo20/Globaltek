@@ -10,7 +10,7 @@
 
   /* sizes */
   --size-small: clamp(0.5rem, 1vw, 1rem);
-  --size-text: clamp(1rem, 1vw, 1rem);
+  --size-text: clamp(1rem, 1vw, 1.2rem);
   --size-highlights: clamp(1.2rem, 1vw, 1.5rem);
   --size-sub-title: clamp(1.5rem, 1vw, 2rem);
   --size-title: clamp(2rem, 1vw, 4rem);

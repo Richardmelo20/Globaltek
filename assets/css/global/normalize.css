@@ -12,6 +12,6 @@ body, html {
   background-color: black;
 }
 ::selection {
-  color: white;
-  background-color: red;
+  color: var(--color-primary);
+  background-color: var(--color-tertiary);
 }
