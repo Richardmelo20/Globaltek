@@ -3,6 +3,8 @@
   --color-primary: #fff;
   --color-secondary: #000;
   --color-tertiary: #1DA6FF;
+  --color-support-1: #1ba25a;
+  --color-support-2: #373737;
 
   /* fonts */
   --font-bold: 'font-bold';
@@ -14,4 +16,5 @@
   --size-highlights: clamp(1.2rem, 1vw, 1.5rem);
   --size-sub-title: clamp(1.5rem, 1vw, 2rem);
   --size-title: clamp(2rem, 1vw, 4rem);
+  --size-title-large: clamp(4rem, 1vw, 6rem);
 }
