@@ -6,6 +6,8 @@
     <title>Website</title>
     <!-- links externos -->
     <link rel="stylesheet" href="./assets/css/index/index.css" />
+    <script src="/assets/js/index/form.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/inputmask/5.0.6-beta.40/inputmask.min.js"></script>
   </head>
 
   <body>
@@ -949,7 +951,7 @@
               src="/assets/files/images/icone-clientes.png"
               alt="icone de cliente"
               class="icone"
-            />>
+            />
             <div class="info">
               <h3 class="title">Consumidor</h3>
               <p class="text">
@@ -978,7 +980,7 @@
       </div>
     </section>
 
-    <!-- seção formúlario -->
+    <!-- seção formulário -->
     <section class="section-form">
       <!-- blushs -->
       <div class="blush one"></div>
@@ -988,36 +990,126 @@
         <div class="cape"></div>
         <div class="title-container">
           <h2 class="title">Fale com nossa equipe</h2>
-          <p class="description">Entre em contato conosco através
-            do formulário de inscrição, por e-mail ou telefone.</p>
+          <p class="description">
+            Entre em contato conosco através do formulário de inscrição, por
+            e-mail ou telefone.
+          </p>
         </div>
-        <form action="" class="form">
+        <!-- formulário -->
+        <form
+          method="POST"
+          action="https://richardmarcelinho1.activehosted.com/proc.php"
+          id="contactForm"
+          class="form"
+          novalidate
+          data-styles-version="5"
+        >
+          <!-- ids importantes -->
+          <input type="hidden" name="u" value="1" />
+          <input type="hidden" name="f" value="1" />
+          <input type="hidden" name="s" />
+          <input type="hidden" name="c" value="0" />
+          <input type="hidden" name="m" value="0" />
+          <input type="hidden" name="act" value="sub" />
+          <input type="hidden" name="v" value="2" />
+          <input
+            type="hidden"
+            name="or"
+            value="7620b30c9432209911f705aca5528a2a"
+          />
+          <!-- campo nome -->
           <div class="input icone-container">
-            <img src="/assets/files/images/icone-form-usuario.png" alt="" class="icone">
-            <input type="text" placeholder="Seu nome">
+            <img
+              src="/assets/files/images/icone-form-usuario.png"
+              alt=""
+              class="icone"
+            />
+            <input
+              type="text"
+              id="fullname"
+              name="fullname"
+              placeholder="Digite seu nome"
+              required
+            />
           </div>
+          <!--campo email  -->
           <div class="input icone-container">
-            <img src="/assets/files/images/icone-form-email.png" alt="" class="icone">
-            <input type="text" placeholder="email@email.com">
+            <img
+              src="/assets/files/images/icone-form-email.png"
+              alt=""
+              class="icone"
+            />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="email@email.com"
+              required
+            />
           </div>
+          <!-- campo telefone -->
           <div class="input icone-container">
-            <img src="/assets/files/images/icone-form-telefone.png" alt="" class="icone">
-            <input type="text" placeholder="(00) 00000-0000">
+            <img
+              src="/assets/files/images/icone-form-telefone.png"
+              alt=""
+              class="icone"
+            />
+            <input
+              type="text"
+              id="phone"
+              name="phone"
+              placeholder="(00) 00000-0000"
+              required
+            />
           </div>
+          <!-- campo empresa -->
           <div class="input icone-container">
-            <img src="/assets/files/images/icone-form-empresa.png" alt="" class="icone">
-            <input type="text" placeholder="Sua empresa">
+            <img
+              src="/assets/files/images/icone-form-empresa.png"
+              alt=""
+              class="icone"
+            />
+            <input
+              type="text"
+              id="field[1]"
+              name="field[1]"
+              placeholder="Sua empresa"
+              required
+            />
           </div>
+          <!-- campo assunto -->
           <div class="input">
-            <img src="/assets/files/images/icone-for" alt="" class="icone">
-            <input type="text" placeholder="Assunto">
+            <img src="" alt="" class="icone" />
+            <input
+              type="text"
+              id="field[2]"
+              name="field[2]"
+              placeholder="Assunto"
+              required
+            />
           </div>
+          <!-- campo mensagem -->
           <div class="input">
-            <img src="/assets/files/images/icone-for" alt="" class="icone">
-            <input type="text" placeholder="Mensagem">
+            <img src="" alt="" class="icone" />
+            <textarea
+              id="field[4]"
+              name="field[4]"
+              rows="4"
+              placeholder="Sua mensagem"
+            ></textarea>
           </div>
-          <button class="button">Enviar Mensagem</button>
+          <!-- botão de envio -->
+          <button id="submitForm" class="button" type="submit">
+            Enviar mensagem
+          </button>
         </form>
+      </div>
+      <div class="alert" id="alert">
+        <h3 class="title">Mensagem enviada!</h3>
+        <p class="description">
+          Recebemos a sua mensagem, vamos entrar em contato o mais breve
+          possível.
+        </p>
       </div>
     </section>
   </body>
