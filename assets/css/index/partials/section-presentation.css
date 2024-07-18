@@ -32,7 +32,7 @@
     & .photo {
       width: 100%;
       height: 500px;
-      background-image: url(/assets/files/images/background-topo.jpg);
+      background-image: url(assets/files/images/background-topo.jpg);
       background-size: cover; /* Ajusta a imagem para cobrir todo o container */
       background-position: center; /* Centraliza a imagem */
       border-radius: 20px;
