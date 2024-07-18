@@ -134,16 +134,16 @@
         }
 
         &.one {
-          background-image: url(../../../../files/images/capa-produto-nanoblack-pro.jpg);
+          background-image: url(../../../../assets/files/images/capa-produto-nanoblack-pro.jpg);
         }
         &.two {
-          background-image: url(../../../../files/images/capa-produto-nanoclear-pro.jpg);
+          background-image: url(../../../../assets/files/images/capa-produto-nanoclear-pro.jpg);
         }
         &.three {
-          background-image: url(../../../../files/images/capa-produto-cristal-black.png);
+          background-image: url(../../../../assets/files/images/capa-produto-cristal-black.png);
         }
         &.four {
-          background-image: url(../../../../files/images/capa-produto-cristal-blue.png);
+          background-image: url(../../../../assets/files/images/capa-produto-cristal-blue.png);
         }
       }
 

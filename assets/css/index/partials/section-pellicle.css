@@ -39,7 +39,7 @@
   &.three {
     & .profile {
       &.photo1 {
-        background-image: url(../../../../files/images/cristal-img1.jpg);
+        background-image: url(../../../../assets/files/images/cristal-img1.jpg);
       }
     }
   }
@@ -64,7 +64,7 @@
 
       & .profile {
         &.photo1 {
-          background-image: url(../../../../files/images/cristal-img1.jpg);
+          background-image: url(../../../../assets/files/images/cristal-img1.jpg);
         }
       }
     }
@@ -282,27 +282,27 @@
           }
 
           &.photo1 {
-            background-image: url(../../../../files/images/nanoclearpro-img1.jpg);
+            background-image: url(../../../../assets/files/images/nanoclearpro-img1.jpg);
           }
 
           &.photo2 {
-            background-image: url(../../../../files/images/nanoclearpro-img2.jpg);
+            background-image: url(../../../../assets/files/images/nanoclearpro-img2.jpg);
           }
 
           &.photo3 {
-            background-image: url(../../../../files/images/nanoclearpro-img3.jpg);
+            background-image: url(../../../../assets/files/images/nanoclearpro-img3.jpg);
           }
 
           &.photo4 {
-            background-image: url(../../../../files/images/nanoclearpro-img4.jpg);
+            background-image: url(../../../../assets/files/images/nanoclearpro-img4.jpg);
           }
 
           &.photo5 {
-            background-image: url(../../../../files/images/nanoclearpro-img5.jpg);
+            background-image: url(../../../../assets/files/images/nanoclearpro-img5.jpg);
           }
 
           &.photo6 {
-            background-image: url(../../../../files/images/nanoclearpro-img6.jpg);
+            background-image: url(../../../../assets/files/images/nanoclearpro-img6.jpg);
           }
         }
 
