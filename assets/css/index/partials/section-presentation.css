@@ -11,6 +11,7 @@
 
   @media screen and (max-width: 1200px) {
     flex-direction: column;
+    align-items: flex-start;
     padding: 100px 30px 60px 30px;
   }
 
@@ -21,56 +22,59 @@
     position: relative;
     width: 50%;
     z-index: 2;
-
+  
     @media screen and (max-width: 1200px) {
       width: 100%;
+      max-width: 600px;
       justify-content: flex-start;
     }
-
+  
     & .photo {
       width: 100%;
       height: 500px;
       background-image: url(/assets/files/images/background-topo.jpg);
-      background-size: 1600px;
-      background-position: right center;
+      background-size: cover; /* Ajusta a imagem para cobrir todo o container */
+      background-position: center; /* Centraliza a imagem */
       border-radius: 20px;
       border: 1px solid var(--color-tertiary);
-
+  
       @media screen and (max-width: 1200px) {
+        max-width: 600px;
         height: 300px;
-        background-size: 900px;
-        background-position: right center;
+        background-size: cover; /* Mantém a imagem coberta no container responsivo */
+        background-position: center;
         background-repeat: no-repeat;
         border-radius: 10px;
       }
     }
-
+  
     & .icone {
       position: absolute;
-
+  
       &.one {
         width: 100px;
-        top: 50px;
-        right: -20px;
-
+        top: 8%;
+        right: -40px;
+  
         @media screen and (max-width: 1200px) {
           width: 80px;
-          right: -10px;
+          right: -1;
         }
       }
-
+  
       &.two {
         width: 60px;
-        bottom: 50px;
-        left: -20px;
-
+        bottom: 8%;
+        left: -3%;
+  
         @media screen and (max-width: 1200px) {
           width: 40px;
-          left: -10px;
+          left: -2%;
         }
       }
     }
   }
+  
 
   & .text {
     display: flex;
