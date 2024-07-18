@@ -137,6 +137,7 @@
         }
 
         @media screen and (max-width: 1200px) {
+          flex-wrap: wrap;
           font-size: var(--size-small);
         }
       }
