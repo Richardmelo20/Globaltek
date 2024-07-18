@@ -82,7 +82,7 @@
       padding: 30px;
     }
 
-    & .description {
+    & .copy {
       font-size: var(--size-text);
       font-family: var(--font-regular);
       color: var(--color-primary);
